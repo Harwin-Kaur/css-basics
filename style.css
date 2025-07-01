@@ -101,6 +101,10 @@ a:hover{
     color: red;
 } */
 
-p:nth-child(even){
+/* p:nth-child(even){
+    color: red;
+} */
+
+p:nth-child(odd){
     color: red;
 }
