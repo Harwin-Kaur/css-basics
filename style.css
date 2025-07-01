@@ -7,9 +7,100 @@ color: aqua !important;
 color: blueviolet !important;
 } */
 
-section {
-
-    background: black;
+/* section {
+     background: black;
     color: white;
+}
 
+<!-- id selector -->
+#fifth
+{
+    color: red;
+}
+
+.pg
+{
+    color: aqua;
+} 
+
+*/
+
+/* Descendent (space) children */
+
+    /* Descendent (space) children */
+section p
+{
+    color: green;
+}
+
+/* child (>) */
+
+/* section >  p 
+{
+    text-decoration: underline;
+    font-size: 32px;
+} */
+
+/* section > div > p 
+{
+    text-decoration: underline;
+    font-size: 32px;
+} */
+
+/* Adjacent (+) */
+
+/* section + p
+{
+    font-size: 32px;
+}
+
+section ~ p
+{
+    font-size: 20px;
+    background-color: brown;
+} */
+
+/* attribure selector */
+
+/* [href]
+{
+    font-size: 32px;
+    text-decoration: none;
+}
+
+[href="contact.html"]
+{
+    color: red  ;
+} */
+
+/* pseudo element selector */
+
+/* p::first-line{
+    color: red;
+}
+
+p::first-letter{
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+a::before{
+    content: "hi ";
+}
+
+a::after{
+    content: " yay  ";
+}
+
+a:hover{
+    font-size: 32px;
+    color: bisque;
+} */
+
+/* p:nth-child(1){
+    color: red;
+} */
+
+p:nth-child(even){
+    color: red;
 }
