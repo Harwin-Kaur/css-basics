@@ -1,3 +1,24 @@
+html
+{
+    font-size: 16px;
+}
+
+.em
+{
+    font-size: 20px;
+}
+
+.em div
+
+{
+font-size: 2rem;
+}
+
+.em p
+{
+     font-size: 1rem; /* it will be 16px because it's root value so html value is 16px and it will be 1*16px */
+}
+
 /* p 
 {
 color: aqua !important;
@@ -28,10 +49,10 @@ color: blueviolet !important;
 /* Descendent (space) children */
 
     /* Descendent (space) children */
-section p
+/* section p
 {
     color: green;
-}
+} */
 
 /* child (>) */
 
